@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ******************************* All backgrounds ******************************* */
+
+.back-group{
+    position: relative;
+}
+
+.back-group img {
+    width: 100%;
+}
+
+.back-group .hg{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.back-group .bg-hero{
+    position: absolute;
+    top:0rem;
+    z-index: 2;
+}
+
+.back-group .mg{
+    position: absolute;
+    top:20rem;
+    z-index: 3;
+}
+
+.back-group .vg{
+    position: absolute;
+    top: 45rem;
+    z-index: 4;
+}
+
+.bg-content{
+    position: relative;
+    top: 57rem;
+    z-index: 5;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .back-group img {
+        width: 100%;
+    }
+    
+    .back-group .hg{
+
+        top: 0;
+
+    }
+    
+    .back-group .bg-hero{
+
+        top:0rem;
+
+    }
+    
+    .back-group .mg{
+
+        top:14rem;
+
+    }
+    
+    .back-group .vg{
+
+        top: 22rem;
+
+    }
+    
+    .bg-content{
+        position: relative;
+        top: 25rem;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .back-group img {
+        width: 100%;
+    }
+
+    .back-group .hg{
+
+        top: 0;
+
+    }
+
+    .back-group .bg-hero{
+
+        top:0rem;
+        z-index: 2;
+    }
+
+    .back-group .mg{
+
+        top:10rem;
+
+    }
+
+    .back-group .vg{
+
+        top: 15rem;
+
+    }
+
+    .bg-content{
+
+        top: 18rem;
+
+    }
+}
+
+
+/* @media only screen and (max-width: 950px) {
+
+
+    .back-group img {
+        width: 100%;
+    }
+
+    .back-group .hg{
+        top: 0;
+    }
+
+    .back-group .bg-hero{
+        top:0rem;
+        z-index: 2;
+    }
+
+    .back-group .mg{
+        top:20rem;
+        z-index: 3;
+    }
+
+    .back-group .vg{
+        top: 38rem;
+        z-index: 4;
+    }
+
+    .bg-content{
+        top: 45rem;
+        z-index: 5;
+    }
+} */
+
+
+  
+.container{
+    background-color: rgb(26, 26, 26);
+    height: 400vh;
+}
+
+
